@@ -6,7 +6,7 @@
  *
  * @separator: pointer to constant separator
  * @n: start of input variables
- * 
+ *
  * Return: nothing
  */
 
