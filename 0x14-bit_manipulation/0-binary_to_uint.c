@@ -27,3 +27,16 @@ unsigned int binary_to_uint(const char *b) {
 
 	return result;
 }
+
+int main() {
+	const char *binary_str = "110101";
+	unsigned int result = binary_to_uint(binary_str);
+
+	if (result == 0 && binary_str != NULL) {
+		printf("Error: Invalid binary string\n");
+	} else {
+		printf("Decimal representation: %u\n", result);
+	}
+
+	return 0;
+}
